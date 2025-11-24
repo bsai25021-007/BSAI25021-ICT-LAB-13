@@ -1,0 +1,166 @@
+/* .bg
+{
+    background-color: antiquewhite;
+}
+.topnav
+{
+    background-color: burlywood;
+    color: black;
+    align-items: center;
+}
+.tab
+{
+    color: crimson;
+} */
+
+
+
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    padding: 15px 30px;
+}
+
+.navbar .logo {
+    color: #fff;
+    font-size: 22px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #00bcd4;
+}
+
+/* Hero Section */
+.hero-section {
+    position: relative;
+    text-align: center;
+}
+
+.hero-img {
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Product Promo */
+.product-promo {
+    position: relative;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.promo-img {
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+}
+
+.promo-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.btn {
+    background-color: #00bcd4;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 6px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #0097a7;
+}
+
+/* Products Page */
+.products {
+    text-align: center;
+    padding: 30px;
+}
+
+.product-box {
+    background-color: #eaf4f4;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-box img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+
+/* Contact Page */
+.contact {
+    text-align: center;
+    padding: 40px;
+}
+
+.contact-box {
+    background-color: #f0f8ff;
+    padding: 20px;
+    width: 60%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.social-links img {
+    width: 40px;
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+.social-links img:hover {
+    transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
